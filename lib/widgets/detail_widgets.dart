@@ -33,14 +33,14 @@ class JobDetailWidget extends StatelessWidget {
               padding: const EdgeInsets.all(24).copyWith(top: 35),
               child: Text(
                 "Description",
-                style: textTheme.headline6,
+                style: textTheme.headlineMedium,
               ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24),
               child: Text(
                 model.description,
-                style: textTheme.bodyText2,
+                style: textTheme.bodySmall,
               ),
             ),
             Padding(
@@ -186,9 +186,9 @@ class _JobBenefitWidget extends StatelessWidget {
           child: Icon(iconData, size: 20, color: Colors.black87),
         ),
         const SizedBox(height: 12),
-        Text(benefitCaption, style: textTheme.bodyText2),
+        Text(benefitCaption, style: textTheme.bodySmall),
         const SizedBox(height: 4),
-        Text(benefit, style: textTheme.bodyText1!.copyWith(fontSize: 12)),
+        Text(benefit, style: textTheme.bodyMedium!.copyWith(fontSize: 12)),
       ],
     );
   }

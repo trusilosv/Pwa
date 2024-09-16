@@ -49,15 +49,15 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               textTheme: const TextTheme(
-                headline6: TextStyle(
+                headlineMedium: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
                 ),
-                bodyText1: TextStyle(
+                bodyMedium: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 14,
                 ),
-                bodyText2: TextStyle(
+                bodySmall: TextStyle(
                   fontWeight: FontWeight.w400,
                   color: Color(0xff5656565),
                   fontSize: 12,

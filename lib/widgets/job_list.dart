@@ -85,13 +85,13 @@ class JobCard extends StatelessWidget {
                             Flexible(
                               child: Text(
                                 model.role,
-                                style: textTheme.headline6,
+                                style: textTheme.headlineMedium,
                               ),
                             ),
                             const SizedBox(height: 4),
                             Text(
                               "\$${model.salaryRange[0]} - ${model.salaryRange[1]}K/${model.salaryInterval}",
-                              style: textTheme.bodyText2!,
+                              style: textTheme.bodySmall!,
                             ),
                           ],
                         ),
